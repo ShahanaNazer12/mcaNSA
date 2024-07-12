@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+echo "enter a range"
+read n
+sum=0
+for (( i=o; i<n; i++ ))
+do
+sum = $(( sum + i))
+done
+echo "sum is : "$sum
